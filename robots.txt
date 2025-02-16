@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://syuq.github.io/sitemap.xml
+Host: https://syuq.github.io
