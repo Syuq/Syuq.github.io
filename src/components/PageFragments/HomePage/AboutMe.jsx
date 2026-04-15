@@ -1,37 +1,36 @@
-import { Col, Row } from 'antd';
-import React from 'react';
-import { domHtml, stripTags } from '../../../utils/stripTags';
+import { Col, Row } from "antd";
+import React from "react";
+import { domHtml, stripTags } from "../../../utils/stripTags";
 
-import AboutTile from '../../AbouTile';
-import SEO from '../../Seo';
+import AboutTile from "../../AbouTile";
+import SEO from "../../Seo";
 
 const pageText = {
-  paraOne:
-    "I'm a Software Engineer at Quy Nhon University, an open-source contributor " +
-    'at TAT Org.',
+  paraOne: "I'm a Software Engineer at Quy Nhon University, an open-source contributor " +
+    "at TAT Org.",
   // paraTwo: 'My research focuses on Streaming Machine Learning',
-  paraTwo: '',
+  paraTwo: "",
 };
 
 const AboutMe = () => {
   const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
   return (
-    <div style={{ lineHeight: '180%' }}>
+    <div style={{ lineHeight: "180%" }}>
       <div>
         <SEO
           title="About"
           description={description}
           path=""
           keywords={[
-            'Dao',
-            'Duy',
-            'Quys',
-            'FullStack developer',
-            'Python',
-            'ReactJS',
-            'Machine Learning',
-            'Online Learning',
-            'Streaming Machine Learning',
+            "Dao",
+            "Duy",
+            "Quys",
+            "FullStack developer",
+            "Python",
+            "ReactJS",
+            "Machine Learning",
+            "Online Learning",
+            "Streaming Machine Learning",
           ]}
         />
         <h1 className="titleSeparate">About Me</h1>
@@ -78,7 +77,7 @@ const AboutMe = () => {
             img="research.jpg"
             alt="web image"
             textH4="Research Topic"
-            textH3="Online Machine Learning"
+            textH3="Distributed Systems"
             height={60}
             width={60}
           />
